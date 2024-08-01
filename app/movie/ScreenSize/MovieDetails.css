@@ -1,0 +1,891 @@
+
+/*start: 319px
+  end: 369px
+*/
+@media only screen and (min-width: 319px) and (max-width: 360px){ 
+
+    .Alldetails {
+
+        margin-top: 10px;
+
+    }
+
+    .Nav {
+
+        height: 70px;
+
+    }
+
+    .Background {
+
+        width: 100%;
+        min-height: 100vh;
+
+    }
+
+    .MainDetails {
+
+        margin-top: 5px;
+        min-height: 100vh;
+        flex-direction: column;
+
+    }
+
+    .MovieVoteCount {
+
+        margin-top: 8px;
+
+    }
+
+    .details {
+
+        margin-left: 20px;
+        flex-direction: column;
+
+    }
+
+    .microDetails {
+
+        margin-left: 0px;
+        width: 95%;
+
+    }
+
+    .PosterImg {
+
+        height: 200px;
+        width: 150px;
+
+    }
+
+    .Title {
+
+        font-size: 13px;
+        line-height: 15px;
+        width: 98%;
+        padding-right: 20px;
+
+    }
+
+    .MovieTitleSynopsis {
+
+        font-size: 13px;
+        line-height: 15px;
+        width: 240px;
+
+    }
+
+    .MovieData {
+
+        font-size: 11px;
+
+    }
+
+    .MovieOverview {
+
+        font-size: 11px;
+        margin-top: 10px;
+        width: 100%;
+
+    }
+
+
+    .TrailerSide {
+
+       position: absolute;
+       right: -5%;
+       top: 15%;
+
+    }
+
+    .light1 {
+
+        height: 200px;
+        width: 100px;
+
+    }
+
+    .WatchTrailerText {
+
+        font-size: 12px;
+        color: white;
+
+    }
+
+    .ImagetoDate {
+
+        display: flex;
+
+    }
+
+    .Holder {
+
+        margin-left: 10px;
+
+    }
+    
+
+}
+
+
+
+  /*start: 360px
+  end: 410px
+*/
+@media only screen and (min-width: 360px) and (max-width: 410px){ 
+
+    .Alldetails {
+
+        margin-top: 10px;
+
+    }
+
+    .Nav {
+
+        height: 70px;
+
+    }
+
+    .Background {
+
+        width: 100%;
+        min-height: 100vh;
+
+    }
+
+    .MainDetails {
+
+        margin-top: 5px;
+        min-height: 100vh;
+        flex-direction: column;
+
+    }
+
+    .details {
+
+        margin-left: 20px;
+        flex-direction: column;
+
+    }
+
+    .microDetails {
+
+        margin-left: 0px;
+        width: 95%;
+
+    }
+
+    .MovieVoteCount {
+
+        margin-top: 8px;
+
+    }
+
+    .PosterImg {
+
+        height: 200px;
+        width: 150px;
+
+    }
+
+    .Title {
+
+        font-size: 16px;
+        line-height: 15px;
+        padding-right: 20px;
+
+    }
+
+    .MovieTitleSynopsis {
+
+        font-size: 16px;
+        line-height: 15px;
+        width: 290px;
+
+    }
+
+    .MovieData {
+
+        font-size: 13px;
+
+    }
+
+    .MovieOverview {
+
+        font-size: 12px;
+        margin-top: 10px;
+
+    }
+
+
+    .TrailerSide {
+
+       position: absolute;
+       right: -5%;
+       top: 15%;
+
+    }
+
+    .light1 {
+
+        height: 200px;
+        width: 100px;
+
+    }
+
+    .WatchTrailerText {
+
+        font-size: 12px;
+        color: white;
+
+    }
+
+    .ImagetoDate {
+
+        display: flex;
+
+    }
+
+    .Holder {
+
+        margin-left: 10px;
+
+    }
+    
+
+}
+
+
+
+ /*start: 410px
+  end: 560px
+*/
+@media only screen and (min-width: 410px) and (max-width: 560px){ 
+
+    .Alldetails {
+
+        margin-top: 10px;
+
+    }
+
+    .Nav {
+
+        height: 70px;
+
+    }
+
+    .Background {
+
+        width: 100%;
+        min-height: 100vh;
+
+    }
+
+    .MainDetails {
+
+        margin-top: 5px;
+        min-height: 100vh;
+        flex-direction: column;
+
+    }
+
+    .details {
+
+        margin-left: 20px;
+        flex-direction: column;
+
+    }
+
+    .microDetails {
+
+        margin-left: 0px;
+        width: 95%;
+
+    }
+
+    .MovieVoteCount {
+
+        margin-top: 8px;
+
+    }
+
+    .PosterImg {
+
+        height: 200px;
+        width: 150px;
+
+    }
+
+    .Title {
+
+        font-size: 16px;
+        line-height: 18px;
+        padding-right: 20px;
+
+    }
+
+    .MovieTitleSynopsis {
+
+        font-size: 16px;
+        line-height: 18px;
+        width: 350px;
+
+    }
+
+    .MovieData {
+
+        font-size: 13px;
+
+    }
+
+    .MovieOverview {
+
+        font-size: 13px;
+        margin-top: 5px;
+        width: 100%;
+
+    }
+
+
+    .TrailerSide {
+
+       position: absolute;
+       right: -5%;
+       top: 15%;
+
+    }
+
+    .light1 {
+
+        height: 200px;
+        width: 100px;
+
+    }
+
+    .WatchTrailerText {
+
+        font-size: 12px;
+        color: white;
+
+    }
+
+    .ImagetoDate {
+
+        display: flex;
+
+    }
+
+    .Holder {
+
+        margin-left: 10px;
+
+    }
+    
+
+}
+
+
+
+
+ /*start: 560px
+  end: 640px
+*/
+@media only screen and (min-width: 560px) and (max-width: 640px){ 
+
+    .Alldetails {
+
+        margin-top: 10px;
+
+    }
+
+    .Nav {
+
+        height: 70px;
+
+    }
+
+    .Background {
+
+        width: 100%;
+        min-height: 100vh;
+
+    }
+
+    .MainDetails {
+
+        margin-top: 5px;
+        min-height: 100vh;
+        flex-direction: column;
+
+    }
+
+    .details {
+
+        margin-left: 20px;
+        flex-direction: column;
+
+    }
+
+    .microDetails {
+
+        margin-left: 0px;
+        width: 95%;
+
+    }
+
+    .Poster500 {
+
+        height: 350px;
+        width: 250px;
+
+    }
+
+    .MovieVoteCount {
+
+        margin-top: 8px;
+
+    }
+
+    .Title {
+
+        font-size: 18px;
+        line-height: 20px;
+        padding-right: 20px;
+
+    }
+
+    .MovieTitleSynopsis {
+
+        font-size: 18px;
+        line-height: 18px;
+        width: 450px;
+
+    }
+
+    .MovieData {
+
+        font-size: 14px;
+
+    }
+
+    .MovieOverview {
+
+        font-size: 13px;
+        margin-top: 5px;
+        width: 100%;
+
+    }
+
+
+    .TrailerSide {
+
+       position: absolute;
+       right: -5%;
+       top: 15%;
+
+    }
+
+    .light1 {
+
+        height: 200px;
+        width: 100px;
+
+    }
+
+    .WatchTrailerText {
+
+        font-size: 12px;
+        color: white;
+
+    }
+
+    .ImagetoDate {
+
+        display: flex;
+
+    }
+
+    .Holder {
+
+        margin-left: 10px;
+
+    }
+    
+
+}
+
+
+
+/*start: 640px
+  end: 980px
+*/
+@media only screen and (min-width: 640px) and (max-width: 980px){ 
+
+    .Alldetails {
+
+        margin-top: 10px;
+
+    }
+
+    .Nav {
+
+        height: 70px;
+
+    }
+
+    .Background {
+
+        width: 100%;
+        min-height: 100vh;
+
+    }
+
+    .MainDetails {
+
+        margin-top: 5px;
+        min-height: 100vh;
+        flex-direction: column;
+
+    }
+
+    .details {
+
+        margin-left: 20px;
+        flex-direction: column;
+
+    }
+
+    .microDetails {
+
+        margin-left: 0px;
+        width: 95%;
+
+    }
+
+    .Poster500 {
+
+        height: 370px;
+        width: 270px;
+
+    }
+
+    .MovieVoteCount {
+
+        margin-top: 8px;
+
+    }
+
+    .Title {
+
+        font-size: 22px;
+        line-height: 22px;
+        padding-right: 20px;
+
+    }
+
+    .MovieTitleSynopsis {
+
+        font-size: 20px;
+        line-height: 18px;
+        width: 500px;
+
+    }
+
+    .MovieData {
+
+        font-size: 17px;
+
+    }
+
+    .MovieOverview {
+
+        font-size: 14px;
+        margin-top: 10px;
+        width: 100%;
+
+    }
+
+
+    .TrailerSide {
+
+       position: absolute;
+       right: -5%;
+       top: 15%;
+
+    }
+
+    .light1 {
+
+        height: 200px;
+        width: 100px;
+
+    }
+
+    .WatchTrailerText {
+
+        font-size: 12px;
+        color: white;
+
+    }
+
+    .ImagetoDate {
+
+        display: flex;
+
+    }
+
+    .Holder {
+
+        margin-left: 10px;
+
+    }
+    
+
+}
+
+
+
+
+/*start: 980px
+  end: 1100px
+*/
+@media only screen and (min-width: 980px) and (max-width: 1100px){ 
+
+    .Alldetails {
+
+        margin-top: 10px;
+
+    }
+
+    .Nav {
+
+        height: 100px;
+
+    }
+
+    .Background {
+
+        width: 100%;
+        min-height: 100vh;
+
+    }
+
+    .MainDetails {
+
+        margin-top: 5px;
+        min-height: 100vh;
+
+    }
+
+    .details {
+
+        margin-left: 20px;
+        flex-direction: column;
+
+    }
+
+    .microDetails {
+
+        margin-left: 0px;
+        width: 95%;
+
+    }
+
+    .Poster500 {
+
+        height: 370px;
+        width: 270px;
+
+    }
+
+    .MovieVoteCount {
+
+        margin-top: 8px;
+
+    }
+
+    .Title {
+
+        font-size: 24px;
+        line-height: 22px;
+        padding-right: 20px;
+
+    }
+
+    .MovieTitleSynopsis {
+
+        font-size: 23px;
+        line-height: 20px;
+        width: 700px;
+
+    }
+
+    .MovieData {
+
+        font-size: 17px;
+
+    }
+
+    .MovieOverview {
+
+        font-size: 14px;
+        margin-top: 15px;
+        width: 100%;
+
+    }
+
+
+    .light1 {
+
+        height: 200px;
+        width: 100px;
+
+    }
+
+    .WatchTrailerText {
+
+        font-size: 12px;
+        color: white;
+
+    }
+
+    .ImagetoDate {
+
+        display: flex;
+
+    }
+
+    .Holder {
+
+        margin-left: 10px;
+
+    }
+    
+
+}
+
+
+
+
+
+/*start: 1100px
+  end: ???
+*/
+@media only screen and (min-width: 1100px) { 
+
+    .Alldetails {
+
+        margin-top: 10px;
+
+    }
+
+    .Nav {
+
+        height: 100px;
+
+    }
+
+    .Background {
+
+        width: 100%;
+        min-height: 100vh;
+
+    }
+
+    .MainDetails {
+
+        margin-top: 5px;
+        min-height: 100vh;
+
+    }
+
+    .details {
+
+        margin-left: 20px;
+        flex-direction: column;
+
+    }
+
+    .microDetails {
+
+        width: 70%;
+        margin-left: 20px;
+
+    }
+
+    .Poster500 {
+
+        height: 370px;
+        width: 270px;
+
+    }
+
+    .MovieVoteCount {
+
+        margin-top: 8px;
+
+    }
+
+    .Title {
+
+        font-size: 25px;
+        line-height: 23px;
+        padding-right: 20px;
+
+    }
+
+    .MovieTitleSynopsis {
+
+        font-size: 24px;
+        line-height: 20px;
+        width: 700px;
+
+    }
+
+    .MovieData {
+
+        font-size: 17px;
+
+    }
+
+    .MovieOverview {
+
+        font-size: 15px;
+        margin-top: 15px;
+        width: 100%;
+
+    }
+
+
+    .light1 {
+
+        height: 200px;
+        width: 100px;
+
+    }
+
+    .WatchTrailerText {
+
+        font-size: 12px;
+        color: white;
+
+    }
+
+    .ImagetoDate {
+
+        display: flex;
+        margin-left: 20px;
+
+    }
+
+    .Holder {
+
+        margin-left: 10px;
+
+    }
+
+}
+
+
+
+

@@ -31,3 +31,784 @@ body {
     text-wrap: balance;
   }
 }
+
+.Bg {
+
+  background-color:  #121212;
+
+}
+
+
+
+/*
+
+Drizzy letter moving
+
+*/
+
+.loader {
+  --path: #2f3545;
+  --dot: #fb992b;
+  --duration: 3s;
+  width: 44px;
+  height: 44px;
+  position: relative;
+}
+
+.loader:before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  display: block;
+  background: var(--dot);
+  top: 37px;
+  left: 19px;
+  transform: translate(-18px, -18px);
+  animation: dotRect var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86)
+    infinite;
+}
+
+.loader svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.loader svg rect,
+.loader svg polygon,
+.loader svg circle {
+  fill: none;
+  stroke: var(--path);
+  stroke-width: 10px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.loader svg polygon {
+  stroke-dasharray: 145 76 145 76;
+  stroke-dashoffset: 0;
+  animation: pathTriangle var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86)
+    infinite;
+}
+
+.loader svg rect {
+  stroke-dasharray: 192 64 192 64;
+  stroke-dashoffset: 0;
+  animation: pathRect 3s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+}
+
+.loader svg circle {
+  stroke-dasharray: 150 50 150 50;
+  stroke-dashoffset: 75;
+  animation: pathCircle var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86)
+    infinite;
+}
+
+.loader.triangle {
+  width: 48px;
+}
+
+.loader.triangle:before {
+  left: 21px;
+  transform: translate(-10px, -18px);
+  animation: dotTriangle var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86)
+    infinite;
+}
+
+@keyframes pathTriangle {
+  33% {
+    stroke-dashoffset: 74;
+  }
+
+  66% {
+    stroke-dashoffset: 147;
+  }
+
+  100% {
+    stroke-dashoffset: 221;
+  }
+}
+
+@keyframes dotTriangle {
+  33% {
+    transform: translate(0, 0);
+  }
+
+  66% {
+    transform: translate(10px, -18px);
+  }
+
+  100% {
+    transform: translate(-10px, -18px);
+  }
+}
+
+@keyframes pathRect {
+  25% {
+    stroke-dashoffset: 64;
+  }
+
+  50% {
+    stroke-dashoffset: 128;
+  }
+
+  75% {
+    stroke-dashoffset: 192;
+  }
+
+  100% {
+    stroke-dashoffset: 256;
+  }
+}
+
+@keyframes dotRect {
+  25% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(18px, -18px);
+  }
+
+  75% {
+    transform: translate(0, -36px);
+  }
+
+  100% {
+    transform: translate(-18px, -18px);
+  }
+}
+
+@keyframes pathCircle {
+  25% {
+    stroke-dashoffset: 125;
+  }
+
+  50% {
+    stroke-dashoffset: 175;
+  }
+
+  75% {
+    stroke-dashoffset: 225;
+  }
+
+  100% {
+    stroke-dashoffset: 275;
+  }
+}
+
+.loader {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+
+
+
+
+/*Watch Trailer Button*/
+
+
+.light-button button.bt {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  outline: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.light-button button.bt .button-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: #0a0a0a;
+  border-radius: 5px;
+  color: gray;
+  font-weight: 700;
+  transition: 300ms;
+  outline: #0f0f0f 2px solid;
+  outline-offset: 20;
+}
+
+.light-button button.bt .button-holder svg {
+  height: 50px;
+  fill: #0f0f0f;
+  transition: 300ms;
+}
+
+.light-button button.bt .light-holder {
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light-button button.bt .light-holder .dot {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #0a0a0a;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.light-button button.bt .light-holder .light {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+  background: transparent;
+}
+
+.light-button button.bt:hover .button-holder svg {
+  fill: rgba(88, 101, 242, 1);
+}
+
+.light-button button.bt:hover .button-holder {
+  color: rgba(88, 101, 242, 1);
+  outline: rgba(88, 101, 242, 1) 2px solid;
+  outline-offset: 2px;
+}
+
+.light-button button.bt:hover .light-holder .light {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(88, 101, 242, 1) 0%,
+    rgba(255, 255, 255, 0) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+
+
+/*Scroll bar Color*/
+
+/* styles/scrollbar.css */
+.scrollbar-custom {
+  scrollbar-width: auto; /* For Firefox */
+  scrollbar-color: yellow black; /* For Firefox */
+}
+
+/* Webkit Browsers */
+.scrollbar-custom::-webkit-scrollbar {
+  height: 8px; /* Height for horizontal scrollbar */
+  width: 8px; /* Width for vertical scrollbar */
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: yellow;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+
+
+/*Exit button*/
+
+.Btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition-duration: 0.3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  background-color: RGB(29, 185, 84);
+}
+
+/* plus sign */
+.sign {
+  width: 100%;
+  transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign svg {
+  width: 18px;
+}
+
+.sign svg path {
+  fill: black;
+}
+/* text */
+.text {
+  position: absolute;
+  right: 0%;
+  width: 0%;
+  opacity: 0;
+  color: black;
+  font-size: 1.2em;
+  font-weight: 600;
+  transition-duration: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+/*----------->Screen Size<-----------*/
+
+
+/*start: 319px
+  end: 369px
+*/
+@media only screen and (min-width: 319px) and (max-width: 360px){
+
+  .ssm { 
+  
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  
+  }
+
+  .Bgs img {
+    width: 135px;
+    height: 250px;
+  }
+
+  .Selected {
+
+    margin-top: 15px;
+
+  }
+
+  .SelectedTabs {
+
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+
+  }
+
+  .SearchBar {
+
+    margin-top: 6px;
+    height: 38px;
+
+  }
+
+  .TextSize {
+
+    font-size: 12px;
+    display: flex;
+    justify-content: start;
+
+  }
+
+  .Card-Container {
+
+    width: 135px;
+    height: auto;
+    margin-top: 20px;
+  
+  }
+  
+  }
+
+
+
+  /*start: 360px
+  end: 410px
+*/
+@media only screen and (min-width: 360px) and (max-width: 410px){
+
+  .ssm { 
+  
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  
+  }
+
+  .Bgs img {
+    width: 180px;
+    height: 250px;
+  }
+
+  .TextSize {
+
+    font-size: 12px;
+    display: flex;
+    justify-content: start;
+
+  }
+
+  .Card-Container {
+
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+  
+  }
+
+  .Selected {
+
+    margin-top: 15px;
+
+  }
+
+  .SelectedTabs {
+
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px; 
+
+  }
+
+  .SearchBar {
+
+    margin-top: 6px;
+    height: 38px;
+
+  }
+  
+  }
+
+
+  /*start: 410px
+  end: 450px
+*/
+@media only screen and (min-width: 410px) and (max-width: 450px){
+
+  .ssm { 
+  
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  
+  }
+
+  .Bgs img {
+
+    width: 180px;
+    height: 300px;
+
+  }
+
+  .TextSize {
+
+    font-size: 13px;
+    display: flex;
+    justify-content: start;
+
+  }
+
+  .Card-Container {
+
+    width: 224px;
+    height: auto;
+    margin-top: 20px;
+  
+  }
+
+  .Selected {
+
+    margin-top: 15px;
+
+  }
+
+  .SelectedTabs {
+
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px; 
+
+  }
+
+  .SearchBar {
+
+    margin-top: 6px;
+    height: 38px;
+
+  }
+
+  }
+
+
+
+    /*start: 450px
+  end: 500px
+*/
+@media only screen and (min-width: 450px) and (max-width: 500px){
+
+  .ssm { 
+  
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  
+  }
+
+  .Bgs img {
+    width: 200px;
+    height: 300px;
+  }
+
+  .TextSize {
+
+    font-size: 14px;
+    display: flex;
+    justify-content: start;
+
+
+  }
+
+  .Card-Container {
+
+    width: 224px;
+    height: auto;
+    margin-top: 20px;
+  
+  }
+
+  .Selected {
+
+    margin-top: 15px;
+
+  }
+
+  .SelectedTabs {
+
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px; 
+
+  }
+
+  .SearchBar {
+
+    margin-top: 6px;
+
+  }
+  
+  }
+
+
+  /*start with 500px; end if reach the next min-width*/
+@media only screen and (min-width: 500px) {
+
+  .sm { 
+  
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  
+  }
+
+  .Card-Container {
+
+    width: 224px;
+    height: auto;
+    margin-top: 20px;
+  
+  }
+
+  .Selected {
+
+    margin-top: 15px;
+
+  }
+
+  .SelectedTabs {
+
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px; 
+
+  }
+
+  .SearchBar {
+
+    margin-top: 6px;
+
+  }
+  
+  
+  }
+
+
+    /*start with 744px; end if reach the next min-width*/
+@media only screen and (min-width: 744px) {
+
+  .smd { 
+  
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  
+  }
+
+  .Card-Container {
+
+    width: 224px;
+    height: auto;
+    margin-top: 20px;
+  
+  }
+
+  .Selected {
+
+    margin-top: 15px;
+
+  }
+
+  .SelectedTabs {
+
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    padding-left: 25px;
+    padding-right: 25px;
+
+  }
+
+  .SearchBar {
+
+    margin-top: 6px;
+
+  }
+  
+  }
+
+
+      /*start with 938px; end if reach the next min-width*/
+@media only screen and (min-width: 938px) {
+
+  .md { 
+  
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  
+  }
+
+  .Card-Container {
+
+    width: 224px;
+    height: auto;
+    margin-top: 20px;
+  
+  }
+
+  .Selected {
+
+    margin-top: 15px;
+
+  }
+
+  .SelectedTabs {
+
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    padding-left: 25px;
+    padding-right: 25px;
+
+  }
+
+  .SearchBar {
+
+    margin-top: 6px;
+
+  }
+  
+  }
+
+
+      /*start with 1140px; end if reach the next min-width*/
+@media only screen and (min-width: 1140px) {
+
+  .slg { 
+  
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  
+  }
+
+  .Card-Container {
+
+    width: 224px;
+    height: auto;
+    margin-top: 20px;
+  
+  }
+
+  .Selected {
+
+    margin-top: 15px;
+
+  }
+
+  .SelectedTabs {
+
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    padding-left: 25px;
+    padding-right: 25px;
+
+  }
+
+  .SearchBar {
+
+    margin-top: 6px;
+
+  }
+  
+  }
+
+
+        /*start with 1440px; end if reach the next min-width*/
+@media only screen and (min-width: 1440px) {
+
+.lg {
+
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+
+}
+
+.Card-Container {
+
+  width: 224px;
+  height: auto;
+  margin-top: 20px;
+
+}
+
+.Selected {
+
+  margin-top: 15px;
+
+}
+
+.SelectedTabs {
+
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px; 
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+.SearchBar {
+
+  margin-top: 6px;
+
+}
+
+}
