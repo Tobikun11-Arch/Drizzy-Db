@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 [Drizzy Movie]
+> Drizzy Movie is a dynamic web application that provides users with an intuitive platform to explore and discover movies. Built with Next.js and TypeScript, it fetches real-time movie data from the TMDB API, displaying trending, top-rated, upcoming movies, and TV shows.
 
-## Getting Started
+## 🔗 Live Demo  
+https://drizzy-movies.vercel.app/
 
-First, run the development server:
+## 📸 Preview  
+![image](https://github.com/user-attachments/assets/5829bcb9-c870-4cc5-a956-60dfc4c694a8)
+![image](https://github.com/user-attachments/assets/3e8360ff-c0cf-4dfd-8174-8d5a53c50289)
+![image](https://github.com/user-attachments/assets/a31055fe-bed2-4cd2-9b4c-6b6fe30bb321)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Built With  
+- **Frontend:** Next.js, TypeScript, Tailwind CSS, TMDB API
+- **Hosting:** Vercel (Frontend)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚡ Features  
+✅ Feature 1 - Users can search for their favorite movies and TV shows. 
+✅ Feature 2 - Users can watch trailers.
+✅ Feature 3 - Users can view the full cast list and find similar movies or TV shows.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+📬 Contact
+👤 Joenel Sevellejo
+📧 Email: joenelsevellejo831@gmail.com
+🔗 Portfolio: yourportfolio.com //soon
+🐙 GitHub: [github.com/yourusername](https://github.com/Tobikun11-Arch)
