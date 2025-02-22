@@ -15,13 +15,12 @@ https://drizzy-movies.vercel.app/
 - **Hosting:** Vercel (Frontend)
 
 ## ⚡ Features  
-✅ Feature 1 - Users can search for their favorite movies and TV shows. 
-✅ Feature 2 - Users can watch trailers.
-✅ Feature 3 - Users can view the full cast list and find similar movies or TV shows.
+✅ Feature 1 - Users can search for their favorite movies and TV shows.  
+✅ Feature 2 - Users can watch trailers.  
+✅ Feature 3 - Users can view the full cast list and find similar movies or TV shows.  
 
-
-📬 Contact
-👤 Joenel Sevellejo
-📧 Email: joenelsevellejo831@gmail.com
-🔗 Portfolio: yourportfolio.com //soon
-🐙 GitHub: [github.com/yourusername](https://github.com/Tobikun11-Arch)
+📬 **Contact**  
+👤 Joenel Sevellejo  
+📧 Email: [joenelsevellejo831@gmail.com](mailto:joenelsevellejo831@gmail.com)  
+🔗 Portfolio: yourportfolio.com //soon  
+🐙 GitHub: [github.com/Tobikun11-Arch](https://github.com/Tobikun11-Arch)  
