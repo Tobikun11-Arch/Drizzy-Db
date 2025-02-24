@@ -1,4 +1,4 @@
-# 🚀 [Drizzy Movie]
+# 🚀Drizzy Movie
 > Drizzy Movie is a dynamic web application that provides users with an intuitive platform to explore and discover movies. Built with Next.js and TypeScript, it fetches real-time movie data from the TMDB API, displaying trending, top-rated, upcoming movies, and TV shows.
 
 ## 🔗 Live Demo  
